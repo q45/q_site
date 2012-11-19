@@ -1,0 +1,48 @@
+body    {
+    width:960px;
+    margin: 15px auto;
+    font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+p,li {
+    line-height: 20px;
+}
+
+header#page_header {
+    width: 100%;
+}
+
+header#page_header nav ul, footer#page_footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section#post {
+    float:left;
+    width: 74%;
+}
+
+section#posts aside {
+    float:right;
+    width:35%;
+    margin-left: 5%;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+section#sidebar {
+
+    width: 25%;
+}
+
+footer#page_footer {
+    clear:both;
+    width: 100%;
+    display: block;
+    text-align: center;
+}

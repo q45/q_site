@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        var links = $('a.popup');
+
+        links.click(function(event) {
+            event.preventDefault();
+            window.open($(this).attr('href'));
+        });
+    </script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+    document.createElement("nav");
+    document.createElement("header");
+    document.createElement("footer");
+    document.createElement("section);
+    document.createElement("aside");
+    document.createElement("article");
+    </script>
+    <![endif]-->
+    <title>Awesome Blog</title>
+</head>
+<body>
+
+<a href="http://www.google.com" class="popup">google</a>
+
+    <header id="page_header">
+        <h1>Awesome Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="http://quintinsmith.com">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="posts">
+        <article class="post">
+            <header>
+                <h2>How Many Should We Put You Down For?</h2>
+                <p>Posted by brian on
+                    <time datetime="2012-11-18">November 18th 2012</time>
+                </p>
+            </header>
+            <aside>
+                <p>
+                    &quot;Never give someone a chance to say no when selling your product.&quot;
+                </p>
+            </aside>
+            <p>
+                The first big rule in sales is that if the person leaves empty-handed,
+                they're likely not going to come back. That's why you have to be somewhat
+                aggressive when you're working with a customer, but you have to make sure you
+                don't overdo it and scare them away.
+            </p>
+            <p>
+                One way you can keep a conversation going is to avoid asking questions that have
+                yes or no answers. For example, if you're selling a service plan, don't ever ask &quot;
+                Instead, ask &quot; Are you interested in our 3 or 5 year service.
+            </p>
+            <footer>
+                <p><a href="comments"><i>25 comments</i></a>....</p>
+            </footer>
+        </article>
+
+
+    </section>
+
+    <section id="sidebar">
+        <nav>
+            <h3>Archive</h3>
+            <ul>
+                <li><a href=""2012-9-11>October 2010</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <footer id="page_footer">
+         <p>&copy; 2012 Awesome Co.</p>
+        <nav>
+            <ul>
+                <li><a href="http://quintinsmith.com">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
